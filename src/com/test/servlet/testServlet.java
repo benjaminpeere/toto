@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "testServlet", urlPatterns = "/test")
+@WebServlet(name = "testServlet", urlPatterns = "/jenkins/job/toto/test")
 public class testServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
